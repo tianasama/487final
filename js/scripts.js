@@ -31,9 +31,10 @@ $(document).ready(function() {
 
   function buildContent(data){
     for (i = 0; i < data.length; i++){
+      console.log([data[i].length]);
       console.log(data[i].Origin);
       console.log(data[i].Value);
-      $(".cards").append("<div class='cards'>" + data[i].Origin + "<br>" + data[i].Value + "</div>")
+      $("#cards").append("<div class='cards card large'>" + data[i].Origin + '<br>' + data[i].Value + "</div>");
     }
   }
 
