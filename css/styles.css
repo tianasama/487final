@@ -52,9 +52,10 @@ body {
   background:#1a76d0;
   color: white;
   padding: 10px;
-  margin: 10px;
-  border: 3px solid white;
+  border: 10px solid white;
   text-align: center;
+  width: 25%;
+  float: left;
 }
 
 .cards:hover {
@@ -62,6 +63,7 @@ body {
 }
 
 .column {
+  float: left;
   width: 25%;
   padding: 0 10px;
 }
@@ -100,5 +102,9 @@ body {
 
   .cards {
     font-size: 8px;
+  }
+
+  .column {
+    width: 100%;
   }
 }
